@@ -17,7 +17,7 @@ $sortArray = array(2,4,1,3);           // all id (can be any value of array) on 
 $res = array();
 foreach( $sortArray as $sortId ) {
    foreach( $srcArray as $item ) {
-      if( trim($item->device_name) == trim($sortId) ) {
+      if( $item['id'] == $sortId ) {
          $res[] = $item;
          break;
       }
