@@ -1,3 +1,4 @@
+<?php
 /* manage excel index */
     function getColumn($prevColumn){
         if(strlen($prevColumn)==1&&$prevColumn!="Z")
